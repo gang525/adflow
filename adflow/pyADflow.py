@@ -3374,6 +3374,7 @@ class ADFLOW(AeroSolver):
                         self.DVGeo.addPointSet(
                             coords0,
                             ptSetName,
+                            family,
                             **self.pointSetKwargs,
                             **familyKwargs,
                         )
